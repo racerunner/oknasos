@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <title>Скорая оконная помощь - <%= @item[:title] %></title>
@@ -8,19 +8,23 @@
   </head>
   <body>
     <div id="main">
+<h1>Скорая оконная помощь</h1>
+<p><i>Благодарим Вас за интерес к нашей компании. Мы уверены, что информация, которую вы узнаете о нас и наших услугах — Вас заинтересует и поможет взаимному дальнейшему сотрудничеству. <strong>Наш телефон: (4862) 78-04-54.</strong></i></p>
+
       <%= yield %>
       <hr />
-      <!--
-      <p>Звоните нам! 8 (4862) 442737</p>-->
+      <p>Скорая оконная помощь<br />
+      Тел.:8 (4862) 44-27-37<br />
+      Орёл, ул.Стлтыкова-Щедрина,34Б, офис 15</p>
     </div>
     <div id="sidebar">
-      <a href="/"><img src="/logo.png" height="150" width="150"></a>
+     <a href="/"><img src="/logo.png" height="180" width="180" border="0"></a>
       <h2>Пластиковые окна</h2>
       <ul>
-        <li><a href="/">Аксессуары</a></li>
+       <!-- <li><a href="/">Аксессуары</a></li>
         <li><a href="/">Пластиковые откосы</a></li>
-        <li><a href="/">Цветовые решения</a></li>
-        <li><a href="/">Галлерея наших работ</a></li>
+        <li><a href="/">Цветовые решения</a></li> -->
+        <li><a href="/plastic/gallery/">Галлерея наших работ</a></li>
       </ul>
       <!--
       <h2>Деревянные окна</h2>
@@ -39,11 +43,10 @@
         <li><a href="http://nanoc.stoneship.org/docs/">Documentation</a></li>
         <li><a href="http://nanoc.stoneship.org/docs/3-getting-started/">Getting Started</a></li>
       </ul>-->
-      <h2>О компании</h2>
+      <h2>О нас</h2>
       <ul>
-        <li><a href="http://nanoc.stoneship.org/docs/">Documentation</a></li>
-        <li><a href="http://nanoc.stoneship.org/docs/3-getting-started/">Getting Started</a></li>
-      </ul>
+        <li><a href="/">Схема проезда</a></li>
+        <li><a href="/">Контакты</a></li>
       </ul>
       <!--
       <h2>Community</h2>
